@@ -1,0 +1,13 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: workflow
+name: prod
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    steps:
+      - uses: cloudbees-io/register-deployed-artifact@v2
+        with:
+          labels: bb-Vuln4ghtest
+          artifact-id: dac77ff0-acea-498b-bbff-7d1fc36cc6a3
+          target-environment: Remediation-PreProd
