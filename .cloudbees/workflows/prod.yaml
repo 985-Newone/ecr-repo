@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: bb-Vuln4ghtest
+          labels: node
           artifact-id: a244a87c-b70d-4860-8925-b0082657bc71
           target-environment: Remediation-PreProd
