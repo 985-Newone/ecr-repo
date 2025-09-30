@@ -9,5 +9,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: bb-Vuln4ghtest
-          artifact-id: dac77ff0-acea-498b-bbff-7d1fc36cc6a3
+          artifact-id: a244a87c-b70d-4860-8925-b0082657bc71
           target-environment: Remediation-PreProd
