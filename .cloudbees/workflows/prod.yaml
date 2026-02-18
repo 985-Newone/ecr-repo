@@ -10,4 +10,4 @@ jobs:
         with:
           labels: node
           artifact-id: 2d2011e5-5563-40ec-a8cf-d590ef0cd394
-          target-environment: mm-qa-aspm
+          target-environment: qa-env
