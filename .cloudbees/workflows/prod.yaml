@@ -9,5 +9,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: node
-          artifact-id: 2ecb0eddf-7eda-48ca-b70c-020aa0ca8892
+          artifact-id: ecb0eddf-7eda-48ca-b70c-020aa0ca8892
           target-environment: qa-env
