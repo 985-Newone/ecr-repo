@@ -9,5 +9,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: node
-          artifact-id: a244a87c-b70d-4860-8925-b0082657bc71
-          target-environment: Remediation-PreProd
+          artifact-id: 2d2011e5-5563-40ec-a8cf-d590ef0cd394
+          target-environment: mm-qa-aspm
