@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: node
-          artifact-id: ecb0eddf-7eda-48ca-b70c-020aa0ca8892
-          target-environment: qa-env
+          labels: newsman
+          artifact-id: ec1e7baf-c3e7-4e86-abc8-f9b538781953
+          target-environment: mm-qa-aspm
